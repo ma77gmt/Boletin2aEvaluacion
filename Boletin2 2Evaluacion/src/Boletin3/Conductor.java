@@ -9,6 +9,12 @@ public class Conductor {
 		this.dni=dni;
 		this.nombre=nombre;
 	}
-	
+	@Override
+	public String toString(){
+		
+		String valor="DNI:" + this.dni + "\nNombre:"+ this.nombre;
+		return valor;
+		
+	}
 	
 }

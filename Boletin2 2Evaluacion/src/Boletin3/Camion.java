@@ -2,15 +2,16 @@ package Boletin3;
 
 public class Camion extends Vehiculo{
 
-	private int altura;
+	public int altura;
 	private Remolque remolque;
 	
-	public Camion(String matricula, String tipo, int vMaxima, Remolque remolque) {
+	public Camion(String matricula, String tipo, int vMaxima, Remolque remolque, int altura) {
 		
 		this.matricula=matricula;
 		this.tipo=tipo;
 		this.vMaxima=vMaxima;
 		this.remolque=remolque;
+		this.altura=altura;
 	}	
 	
 	

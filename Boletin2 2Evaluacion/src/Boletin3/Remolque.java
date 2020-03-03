@@ -6,4 +6,11 @@ public class Remolque {
 	public int longitud;
 	
 	
+
+	@Override 
+	public String toString() {
+		
+		String valor="matricula:" + this.matricula +  "\nLongitud " + this.longitud;
+		return valor;
+	}
 }

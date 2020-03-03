@@ -12,6 +12,8 @@ public class Vehiculo {
 		System.out.println("vMaxima " + vMaxima);
 		System.out.println("Tipo " + tipo);
 		System.out.println("Conductor " + conductor);
+		
+
 	}
 	
 	
