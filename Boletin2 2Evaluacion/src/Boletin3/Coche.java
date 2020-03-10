@@ -5,6 +5,7 @@ public class Coche extends Vehiculo{
 	public int nPlazas;
 	
 	public Coche(String matricula, String tipo, int vMaxima, int nPlazas) {
+		super();
 		this.matricula=matricula;
 		this.tipo=tipo;
 		this.vMaxima=vMaxima;
