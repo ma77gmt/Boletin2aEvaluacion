@@ -48,14 +48,25 @@ public class Ejercicio1 {
 		impresionPolimorfismo(Camion1);
 
 		impresionPolimorfismo(c1);
+		
+		
+		//Crear un método en Ejercicio1. Java que, recibiendo un elemento de tipo Vehículo muestre los datos
+		//del remolque asociado a él sólo si es de tipo camión.
+		//Para esto tendréis que comprobar (dentro del método si el tipo del Vehiculo pasado es “CAMION” y, si
+		//es así, realizar un cast dentro para poder acceder a su remolque. 
+		
 
 	}// main
 	
 
-	public static void impresionPolimorfismo(Vehiculo vehiculoX) {
+	public static void impresionPolimorfismo(Vehiculo vehiculo1) {
 
-		vehiculoX.mostrarDatos();
-
+		vehiculo1.mostrarDatos();
+		
+		if(vehiculo1 instanceof Camion) {
+				System.out.println(((Camion)vehiculo1).remolque);
+			 
+		}
 	}
-
+	
 }// class

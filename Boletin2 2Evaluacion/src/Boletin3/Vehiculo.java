@@ -18,19 +18,40 @@ public class Vehiculo {
 
 	protected String matricula;
 	protected String tipo;
-	protected int vMaxima;
+	protected int vmaxima;
 	protected Conductor conductor;
 	
 	public void mostrarDatos(){
 		System.out.println("Matricula " + matricula);
-		System.out.println("vMaxima " + vMaxima);
+		System.out.println("vMaxima " + vmaxima);
 		System.out.println("Tipo " + tipo);
 		System.out.println("Conductor " + conductor);
+	
+	
 		
-
 	}
-	
-	
-	
-	
+	public String getMatricula() {
+		return matricula;
+	}
+    public void setMatricula(String matricula) {
+    	this.matricula=matricula;
+    }
+	public String getTipo() {
+		return tipo;
+	}
+	public void setTipo(String tipo) {
+		this.tipo=tipo;
+	}
+	public int getvMaxima() {
+		return vmaxima;
+	}
+	public void setvMaxima(int vmaxima) {
+		this.vmaxima=vmaxima;
+	}
+	public Conductor getConductor() {
+		return conductor;
+	}
+	public void setConductor(Conductor conductor) {
+		this.conductor=conductor;
+	}
 }

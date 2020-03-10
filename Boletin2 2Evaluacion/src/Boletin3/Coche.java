@@ -8,7 +8,7 @@ public class Coche extends Vehiculo{
 		super();
 		this.matricula=matricula;
 		this.tipo=tipo;
-		this.vMaxima=vMaxima;
+		this.vmaxima=vMaxima;
 		this.nPlazas=nPlazas;
 		}	
 	
